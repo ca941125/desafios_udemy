@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Times New Roman';
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 10px ;
+}
+article{
+    width: 550px;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+    border: 7px solid #56120F;
+    border-radius: 5px;
+    background-color: #1A1717;
+    color: white;
+}
+.informacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    margin: 4px 30px 15px;
+    text-align: center;
+    border-bottom: 2px solid #F0E044;
+}
+.clasificacion{
+    text-align: center;
+    margin: 15px;
+    font-size: small;
+}
+.genero{
+    text-align: center;
+    background-color: #F0E044;
+    margin: 5px;
+    padding: 5px;
+    color: #1A1717;
+    border-radius: 5px;
+}
+.sinopsis{
+    margin-block: 10px;
+    text-align: justify;
+}
+a{
+    width: 200px;
+    text-align: center;
+    color: #F0E044;
+    margin: 10px;
+    padding: 5px;
+    text-decoration: none;
+    border: 1px solid #F0E044;
+    border-radius: 5px;
+}
+a:hover{
+    background-color: #F0E044;
+    color: #1A1717;
+    transition: .3s;
+}
+.imagen{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+img{
+    padding: 10px;
+    height:250px;
+    outline: 1px solid #F0E044;
+    border-radius: 5px;
+}

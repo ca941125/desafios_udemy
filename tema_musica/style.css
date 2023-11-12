@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.capa-trasera{
+    width: 500px;
+    height: 500px;
+    margin:10px;
+    background-color: black;
+}
+.capa-delantera{
+    width: 500px;
+    height: 500px;
+    background: url("disco_las_pastillas.jpg") no-repeat;
+    background-size: cover;
+}
+.disco-grande {
+    width: 500px;
+    height: 500px;
+    margin-left: 250px;
+    border: 2px solid #222;
+    border-radius: 50%;
+    background-color: #202020;
+}
+.disco-chico {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    border: 2px solid #222;
+    border-radius: 50%;
+    background-color: orange;
+    position: relative;
+    top: 175px;
+}	
+.capa-delantera {
+    position: relative;
+    top: -500px;
+    border: 1px solid #555;
+}
+
+.titulo {
+    display: block;
+    margin: 20px 20px 5px 20px ;
+    color: #1b1b1b;
+    font-size: 24px;
+    font-weight:bold;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+ol {
+    width: 53%;
+    padding: 10px;
+    margin-top: 100px; 
+    border-bottom: 1px dashed #333;
+    list-style-position: inside;
+}
+li {
+    padding: 2px;
+    color: #333;
+    font-size: 18px;
+}
+li span {
+    float: right;
+    color: #333;
+}
