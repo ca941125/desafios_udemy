@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="hoteles.html">Hoteles</a></li>
+				<li><a href="">Promociones</a></li>
+				<li><a href="">Ayuda</a></li>
+				<li class="login"><a href="">Iniciar sesión</a></li>
+			</ul>
+		</nav>
+	</header>
+    <main>
+		<h1>Alojate en los Hoteles más impresionantes</h1>
+		<form id="busqueda-hotel" action="" method="post">
+			<ul>
+				<li>
+					<label for="donde-ir">Donde ir </label>
+					<input type="text" id="donde-ir" placeholder="Provincia, ciudad, región, hotel..." size="36" required>
+				</li>
+				<li>
+					<label for="entrada">Entrada </label>
+					<input type="date" id="entrada" required>
+				</li>
+				<li>
+					<label for="salida">Salida </label>
+					<input type="date" id="salida" required>
+				</li>
+				<li>
+					<label for="habitaciones">Habitaciones </label>
+					<select name="habitaciones" id="habitaciones">
+						<option value="">1 adulto, 1 habitación</option>
+						<option value="">2 adultos, 1 habitación</option>
+						<option value="">1 adulto, 1 niño</option>
+						<option value="">2 adultos, 1 niño</option>
+						<option value="">2 adultos, 2 niños</option>
+					</select>
+				</li>
+				<li><input type="submit" value="Buscar"></li>
+			</ul>
+		</form>
+		<br>
+		<h2>Escoje el destino que siempre has soñado</h2>
+	</main>
+    <footer>
+		<ul>
+			<li><a href="terminos/terminos-y-condiciones.html">Términos y Condiciones</a></li>
+			<li><a href="terminos/politica-de-privacidad.html">Política de Privacidad</a></li>
+			<li><a href="terminos/cookies.html">Cookies</a></li>
+		</ul>
+		<p>© MundoHoteles.com Todos los derechos reservados.</p>
+	</footer>
+</body>
+</html>
