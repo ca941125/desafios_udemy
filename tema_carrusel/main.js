@@ -23,4 +23,4 @@ function prevSlide() {
     showSlide(currentIndex - 1);
 }
 
-setInterval(nextSlide, 3000); // Cambia la imagen cada 3 segundos (ajusta según sea necesario)
+setInterval(nextSlide, 4000);
