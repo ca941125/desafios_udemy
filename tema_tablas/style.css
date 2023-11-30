@@ -1,0 +1,24 @@
+table {
+    width: 80%;
+    margin: auto;
+    background-color: rgb(3, 46, 88);
+    color: white; 
+    border-radius: 5px 5px 0 0;
+    padding: 3px;
+}
+caption {
+    color: #000000;
+}
+td {
+    width: 50px;
+    padding: 8px 0;
+    text-align: center;
+    background-color: #4d4d4d;
+}
+.hoy {
+    outline: 2px solid rgb(11, 0, 59);
+    outline-offset: -5px;
+}
+.noviembre{
+    color: rgb(51, 51, 51);
+}
