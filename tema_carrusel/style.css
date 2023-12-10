@@ -1,4 +1,6 @@
-
+*{
+    background-color: rgb(59, 0, 59);
+}
 #carousel-container {
     position: relative;
     overflow: hidden;
