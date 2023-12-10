@@ -1,10 +1,43 @@
+*{
+    font-family: sans-serif;
+}
 body {
     background-image: url('img/fondoo.jpg');
     background-size: cover;
     overflow-y: hidden;
 }
-nav { animation: bajar .5s .75s backwards; }
-h1 { font-size: 2em; }
+header {
+  padding: 1rem ;
+}
+nav { 
+    animation: bajar .5s .75s backwards; 
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+}
+a:hover{
+    font-weight: bold;
+    transition: .3s;
+    padding: 5px;
+    border: 1px solid white;
+}
+
+/* main */
+h1 { 
+    font-size: 2em; 
+}
+
+
+/* footer */
 footer {
     position: absolute;
     bottom: 0;
