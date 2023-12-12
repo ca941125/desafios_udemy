@@ -1,10 +1,16 @@
 *{
+    margin: 0;
+    padding: 0;
     font-family: sans-serif;
+    box-sizing: border-box;
 }
+
 body {
     background-image: url('img/fondoo.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
     background-size: cover;
-    overflow-y: hidden;
+    background-position: center center;
 }
 header {    
     padding: 1rem ;
