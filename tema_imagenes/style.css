@@ -1,0 +1,27 @@
+div{
+    height: 600px;
+    padding: 30px; 
+    margin: 10px;
+}
+p { 
+    font-size: 48px; 
+}
+/*
+background-color
+background-image
+background-repeat
+background-attachment
+background-position	
+*/
+.img-fondo-1 { 
+    background: #ffffff url("imagenes/flor.jpg") no-repeat fixed right top; 
+}
+.img-fondo-2 { 
+    background: url("imagenes/auricular.jpg") fixed; 
+}
+.img-fondo-3 { 
+    background: url("imagenes/mariposa.jpg") no-repeat fixed; 
+}
+.img-fondo-4 { 
+    background: url("imagenes/perro.jpg") scroll; 
+}
