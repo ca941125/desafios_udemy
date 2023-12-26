@@ -23,4 +23,3 @@ function prevSlide() {
     showSlide(currentIndex - 1);
 }
 
-setInterval(nextSlide, 4000);
