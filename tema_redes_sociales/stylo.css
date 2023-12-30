@@ -28,8 +28,4 @@ html{
   font-size: 26px;
   transition: .3s;
 }
-.sobremi .contenedor-redes a:hover{
-  background-color: rgb(255, 136, 0); 
-  border: none; 
-  color: #252A2E;
-}
+
