@@ -29,3 +29,57 @@ html{
   transition: .3s;
 }
 
+.facebook:hover{
+  background-color: #3b5998;
+  border: none;
+  color: #252A2E;
+  box-shadow: 0 0 10px white;
+}
+.twitter:hover{
+  background-color: #00acee;
+  border: none;
+  color: #252A2E;
+  box-shadow: 0 0 10px white;
+}
+.github:hover{
+  background-color: #171515;
+  border: none;
+  color: #252A2E;
+  box-shadow: 0 0 10px white;
+}
+.linkedin:hover{
+  background-color: #0077B5;
+  border: none;
+  color: #252A2E;
+  box-shadow: 0 0 10px white;
+}
+.instagram:hover{
+  background-color: #E4405F;
+  border: none;
+  color: #252A2E;
+  box-shadow: 0 0 10px white;
+}
+.whatsapp:hover{
+  background-color: #4fce5d;
+  border: none;
+  color: #252A2E;
+  box-shadow: 0 0 10px white;
+}
+.tiktok:hover{
+  background-color: #000000;
+  border: none;
+  color: #252A2E;
+  box-shadow: 0 0 10px white;
+}
+.pinterest:hover{
+  background-color: #E60023;
+  border: none;
+  color: #252A2E;
+  box-shadow: 0 0 10px white;
+}
+.youtube:hover{
+  background-color: #FF0000;
+  border: none;
+  color: #252A2E;
+  box-shadow: 0 0 10px white;
+}
