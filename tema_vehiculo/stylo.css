@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant|Alumni Sans Pinstripe');
+.vehiculo {
+	position: relative;
+	width: 450px;
+	height: auto;
+	margin: 8px;
+	outline: 5px solid transparent;
+	outline-offset: -2px;
+	border: 1px solid #ffa600;
+	border-radius: 10px;
+	background-color: #eee;
+	color: #ccc;
+	font-family: Cormorant, serif;
+	float: left;
+	cursor: context-menu;
+	overflow: hidden;
+}
+h1 {
+	font-size: 32px;
+	margin: 0px;
+	margin-top: -5px;
+	padding: 10px;
+	border-top: 2px solid orange; 
+	border-bottom: 2px solid orange; 
+	text-align: center;
+	background-color: #000;
+}
+span {
+	padding: 5px 10px;
+	display: inline-block;
+    color: #000;
+    font-weight: bold;
+}
+.vehiculo div span:first-child {
+	width: 120px;
+	color: #000000;
+	font-weight: 600;
+}
+img {
+	width: 450px;
+	height: 300px;
+	border-radius: 10px 10px 0 0;
+}
+div div:last-child {
+	position: absolute;
+	top: 5px;
+	left: 300px;
+	color: rgb(0, 0, 0);
+	font-weight: 600;
+	font-size: 32px;
+}
+.vehiculo:hover {
+	background-color: #ddc700;
+	color: #6d6d6d;
+	outline: 5px solid #ddd;
+}
