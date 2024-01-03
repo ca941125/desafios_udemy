@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylo.css">
+    <title>Document</title>
+</head>
+<body>
+	<form action="formulario-de-contacto.php" method="post">
+		<fieldset>
+			<legend>Formulario De Contacto</legend>
+				<label for="nombre" title="Campo obligatorio">Tu Nombre* </label>
+				<input 
+					type="text" 
+					name="nombre" 
+					placeholder="Nombre y Apellidos" 
+					id="nombre" 
+					size="36" 
+					required>
+			<br>
+				<label for="correo" title="Campo obligatorio">Tu Correo* </label>
+				<input 
+					type="text" 
+					name="correo" 
+					placeholder="Correo Électrónico" 
+					id="correo" size="36" 
+					required>
+			<br>
+				<label for="telefono">Tu Teléfono </label>
+				<input 
+					type="tel" 
+					name="telefono" 
+					placeholder="Teléfono" 
+					id="telefono" 
+					size="36">
+			<br>
+				<label for="mensaje">Mensaje </label>
+				<textarea 
+					id="mensaje" 
+					name="mensaje" 
+					placeholder="Deja aquí tu mensaje" 
+					cols="50" 
+					rows="5">
+				</textarea>
+			<br>
+				<input type="submit" value="Enviar Formulario">		
+		</fieldset>
+	</form>
+</body>
+</html>
