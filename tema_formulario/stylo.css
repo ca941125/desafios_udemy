@@ -1,0 +1,41 @@
+form {
+	width: 550px;
+	height: 400px;
+	padding: 20px;
+	margin: auto;
+	border: 1px solid #ccc;
+	outline: 5px solid #a0008b;
+	outline-offset: -10px;
+	border-radius: 20px;
+	background-color: #ffb9ee;
+	color: rgb(0, 0, 0);
+}
+fieldset {
+	padding: 10px;
+	border: 1px dashed #a0008b;
+	border-radius: 10px;
+}
+legend {
+	font-size: 22px;
+}
+label {
+	width: 150px;
+	margin-bottom: 20px;
+	display: inline-block;
+}
+input, textarea {
+	padding: 5px;
+	border: 1px solid #a0008b;
+	border-radius: 10px;
+	resize: none;
+    background-color: #ffb9ee;
+}
+::placeholder {
+ 	color: #a0008b;
+}
+[type=submit] {
+	padding: 10px;
+	background-color: #a0008b;
+	color: white;
+	float: right;
+}
