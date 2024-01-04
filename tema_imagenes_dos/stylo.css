@@ -12,3 +12,18 @@
     padding: 20px; 
     margin: 0;
 }
+.dos div {
+    width: 600px; 
+    height: 300px;
+    background-image: url("../imagenes/coche.jpg");
+    background-size: cover;
+    border: 1px solid gray;
+}
+.dos p {
+    width: 200px;
+    height: 260px;
+    background-color: rgba(0,0,0,.5);	
+    color: white; 
+    padding: 20px; 
+    margin: 0;
+}
