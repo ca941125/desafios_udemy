@@ -1,0 +1,14 @@
+.uno div{
+    width: 500px; 
+    background-color: black;
+    border: 1px solid gray;
+}
+.uno img {
+    width:100%;
+    border-bottom: 2px solid orange;
+}
+.uno p {
+    color: white; 
+    padding: 20px; 
+    margin: 0;
+}
